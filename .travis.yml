@@ -9,6 +9,8 @@ go:
 env:
   matrix:
     - BUILD_DEPTYPE=gomod
+    - PIONS_LOG_WARN=all
+    - PIONS_LOG_ERROR=all
 
 # disable travis install
 install:
